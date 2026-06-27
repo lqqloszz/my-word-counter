@@ -21,7 +21,7 @@ def index():
             #依據海外/台灣自媒體大數據統計的華語口播語速計算 (每秒可念字數)
             if soeed == 'fast':
                 words_per_second = 300 / 60 #5速嘴，300字/min = 5字/s
-            elif speed = 'slow':
+            elif speed == 'slow':
                 words_per_second = 150 / 60 #緩速，150字/min = 2.5字/s
             else:
                 words_per_second = 220 / 60 #正常，220字/min = 3.66字/s

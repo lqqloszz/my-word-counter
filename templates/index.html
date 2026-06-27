@@ -71,7 +71,7 @@
         .result-container{
             margin-top: 25px;
             padding: 25px;
-            backgroud: #f5f5f7;
+            background: #f5f5f7;
             border-radius: 12px;
         }
         .result-grid{
@@ -118,6 +118,17 @@
         <p class="subtitle">專為 TilTok / Reels / Shorts 創作者打造。輸入口播文案，即時精確估算朗讀所需時間，幫助您精準卡點，引爆完播率!</p>
 
         <div class="ad-banner">
+            <script>
+  atOptions = {
+    'key' : '466cde7f1bb20e7778b61af1f916c68d',
+    'format' : 'iframe',
+    'height' : 90,
+    'width' : 728,
+    'params' : {}
+  };
+</script>
+<script src="https://www.highperformanceformat.com/466cde7f1bb20e7778b61af1f916c68d/invoke.js"></script>
+
             </div>
         <form method="POST">
             <div class="form-group">
@@ -130,7 +141,7 @@
                 <select name="speed" id="speed">
                     <option value="normal" {% if speed == 'normal' %}selected{% endif %}> 正常解說 (知識型、Vlog、說書解說 － 約 220 字/分鐘)</option>
                     <option value="fast" {% if speed == 'fast' %}selected{% endif %}> 機關槍快嘴 (帶貨、搞笑、資訊轟炸 －　約 300 字/分鐘)</option>
-                    <option value="slow" {% if speed == 'slow' %}selected{% endif %}> 感性慢速 (深夜療癒、文青獨白、慢節奏　－ 約 150 字/分鐘</option>
+                    <option value="slow" {% if speed == 'slow' %}selected{% endif %}> 感性慢速 (深夜療癒、文青獨白、慢節奏　－ 約 150 字/分鐘)</option>
                 </select>
             </div>
 

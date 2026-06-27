@@ -35,7 +35,7 @@
         textarea:focus{
             border-color: #0071e3;
             outline: none;
-            box-shadow: 0 0 0 3px rgba(0, 113, 227, 0, 15);
+            box-shadow: 0 0 0 3px rgba(0, 113, 227, 0.15);
         }
         .form-group{
             margin-bottom: 20px;
@@ -63,7 +63,7 @@
             cursor: pointer;
             font-size: 16px;
             font-weight: bold;
-            trasition: background 0.2s;
+            transition: background 0.2s;
         }
         input[type="submit"]:hover {background: #005bb5;}
 
@@ -100,7 +100,7 @@
         .tips-box{
             margin-top: 20px;
             padding: 14px;
-            backgroud: #e8e8ed;
+            background: #e8e8ed;
             border-radius: 8px;
             font-size: 14px;
             color: #1d1d1f;
@@ -128,9 +128,9 @@
             <div class="form-group">
                 <label for="speed"> 預期創作者口播語速</label>
                 <select name="speed" id="speed">
-                    <option value="normal" {% if speed == 'normal' %}select{% endif %}> 正常解說 (知識型、Vlog、說書解說 － 約 220 字/分鐘)</option>
-                    <option value="fast" {% if speed == 'fast' %}select{% endif %}> 機關槍快嘴 (帶貨、搞笑、資訊轟炸 －　約 300 字/分鐘)</option>
-                    <option value="slow" {% if speed == 'slow' %}select{% endif %}> 感性慢速 (深夜療癒、文青獨白、慢節奏　－ 約 150 字/分鐘</option>
+                    <option value="normal" {% if speed == 'normal' %}selected{% endif %}> 正常解說 (知識型、Vlog、說書解說 － 約 220 字/分鐘)</option>
+                    <option value="fast" {% if speed == 'fast' %}selected{% endif %}> 機關槍快嘴 (帶貨、搞笑、資訊轟炸 －　約 300 字/分鐘)</option>
+                    <option value="slow" {% if speed == 'slow' %}selected{% endif %}> 感性慢速 (深夜療癒、文青獨白、慢節奏　－ 約 150 字/分鐘</option>
                 </select>
             </div>
 
